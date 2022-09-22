@@ -1,5 +1,3 @@
-import { findAllByAltText } from "@testing-library/react";
-
 /**
  * Consume an array of numbers, and return a new array containing
  * JUST the first and last number. If there are no elements, return
@@ -133,10 +131,7 @@ export function injectPositive(values: number[]): number[] {
             negIndex,
             tempValuesArray.length - negIndex
         );
-        const sum = tempValuesArray.reduce(
-            (i: number, num: number) => i + num,
-            0
-        );
+        const sum = spliced.reduce((i: number, num: number) => i + num, 0);
         const ans = [...values];
         ans.splice(negIndex + 1, 0, sum);
         return ans;
