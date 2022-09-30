@@ -127,11 +127,8 @@ export function injectPositive(values: number[]): number[] {
         return [...values, sum];
     } else {
         const tempValuesArray = [...values];
-        const spliced = tempValuesArray.splice(
-            negIndex,
-            tempValuesArray.length - negIndex
-        );
-        const sum = spliced.reduce((i: number, num: number) => i + num, 0);
+        const sliced = tempValuesArray.slice(0, negIndex);
+        const sum = sliced.reduce((i: number, num: number) => i + num, 0);
         const ans = [...values];
         ans.splice(negIndex + 1, 0, sum);
         return ans;
