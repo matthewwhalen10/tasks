@@ -400,7 +400,6 @@ describe("Testing the Question[] functions", () => {
         expect(sumPublishedPoints(EMPTY_QUESTIONS)).toEqual(20);
         expect(sumPublishedPoints(SIMPLE_QUESTIONS_2)).toEqual(300);
     });
-
     test("Testing the toCSV function", () => {
         expect(toCSV(BLANK_QUESTIONS)).toEqual(`id,name,options,points,published
 1,Question 1,0,1,false
@@ -776,7 +775,6 @@ describe("Testing the Question[] functions", () => {
             }
         ]);
     });
-
     test("Test the changeQuestionTypeById function", () => {
         expect(
             changeQuestionTypeById(
