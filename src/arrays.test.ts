@@ -261,7 +261,6 @@ describe("Testing the array functions", () => {
 
     //////////////////////////////////
     // injectPositive
-    console.log(injectPositive(NUMBERS_5));
     test("Testing the injectPositive function", () => {
         expect(injectPositive(NUMBERS_1)).toEqual([1, 2, 3, 6]);
         expect(injectPositive(NUMBERS_2)).toEqual([100, 300, 200, 600]);
