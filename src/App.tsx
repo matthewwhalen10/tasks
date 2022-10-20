@@ -1,7 +1,5 @@
 import React from "react";
-import { Button, Col, Container, Row } from "react-bootstrap";
 import "./App.css";
-import pic1 from "./Images/Fat_Dog.jpeg";
 import { ChangeType } from "./components/ChangeType";
 import { RevealAnswer } from "./components/RevealAnswer";
 import { StartAttempt } from "./components/StartAttempt";
