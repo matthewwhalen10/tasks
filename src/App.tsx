@@ -20,6 +20,10 @@ function App(): JSX.Element {
             <hr></hr>
             {<DoubleHalf></DoubleHalf>}
             <hr></hr>
+            <ColoredBox></ColoredBox>
+            <hr></hr>
+            <ChooseTeam></ChooseTeam>
+            <hr></hr>
             <ShoveBox></ShoveBox>
             <hr></hr>
             <Counter></Counter>
