@@ -18,11 +18,7 @@ function App(): JSX.Element {
                 UD CISC275 with React Hooks and TypeScript and also Matt Whalen
             </header>
             <hr></hr>
-            {/* <DoubleHalf></DoubleHalf> */}
-            <hr></hr>
-            <ChooseTeam></ChooseTeam>
-            <hr></hr>
-            <ColoredBox></ColoredBox>
+            {<DoubleHalf></DoubleHalf>}
             <hr></hr>
             <ShoveBox></ShoveBox>
             <hr></hr>
